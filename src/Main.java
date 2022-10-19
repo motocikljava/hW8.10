@@ -13,6 +13,7 @@ public class Main {
         }
         System.out.println("Сумма затрат за месяц составила " + sum + " рублей");
         System.out.println(maxCashe);
+        System.out.println("Сделал 1 и 2 задание");
 
     }
 
