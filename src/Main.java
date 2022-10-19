@@ -2,18 +2,14 @@ public class Main {
 
     public static void main(String[] args) {
         int[] arr = generateRandomArray();
-        int sum = 0;
-        int maxCashe = 5;
+        int minCashe = 5;
         for (int i = 0; i < arr.length; i++) {
-            sum = sum + arr[i];
-            //задание 2
-            if (arr[i] > maxCashe) {
-                maxCashe = arr[i];
+            if (arr[i] < arr[i] + 1) {
+                minCashe = arr[i];
             }
         }
-        System.out.println("Сумма затрат за месяц составила " + sum + " рублей");
-        System.out.println(maxCashe);
-        System.out.println("Сделал 1 и 2 задание");
+        System.out.println(minCashe);
+        System.out.println("сделал 3 задание");
 
     }
 
